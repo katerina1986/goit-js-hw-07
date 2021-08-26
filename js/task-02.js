@@ -4,7 +4,7 @@ const ingredientsEl = document.querySelector('#ingredients')
 
 const ingredientEl = ingredients.map(item => {
   const itemEl = document.createElement('li')
-  itemEl.textContent = itemEl
+  itemEl.textContent = item
 
   return itemEl
 })
